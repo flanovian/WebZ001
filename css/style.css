@@ -747,27 +747,27 @@ input:checked+label .description {
 }
 
 .card-style[for="chero"] {
-  background-image: url('/Assets/img/hero/hero020.png');
+  background-image: url('../Assets/img/hero/hero020.png');
 
 }
 
 .card-style[for="c1"] {
-  background-image: url('/Assets/img/hero/hero10.png');
+  background-image: url('../Assets/img/hero/hero10.png');
 
 }
 
 .card-style[for="c2"] {
-  background-image: url('/Assets/img/hero/hero03.png');
+  background-image: url('../Assets/img/hero/hero03.png');
 
 }
 
 .card-style[for="c3"] {
-  background-image: url('/Assets/img/hero/hero08.png');
+  background-image: url('../Assets/img/hero/hero08.png');
 
 }
 
 .card-style[for="c4"] {
-  background-image: url('/Assets/img/hero/hero02.png');
+  background-image: url('../Assets/img/hero/hero02.png');
 
 }
 
