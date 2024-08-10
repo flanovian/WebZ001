@@ -1,0 +1,857 @@
+:root {
+  /* --pr-color: #e1e7fe; */
+  --pr-color: #ead518;
+  --pr-inticolor: #123A78;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #e1e7fe;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+/* .poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #123A78;
+  font-size: 24px;
+  transition: 0.3 color;
+} */
+
+/* Navbar style */
+.navbar {
+  background-color: #323267;
+  height: 60px;
+  /* margin: 20px; */
+  /* border-radius: 16px; */
+  /* padding: 0.5rem;
+  max-width: 90%;
+  margin: 20px auto;  */
+}
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--pr-color);
+  transition: 0.3s color;
+
+}
+
+.daftar-button {
+  background-color: #D5C323;
+  color: var(--pr-inticolor);
+  font-weight: 600;
+  font-size: 14px;
+  padding: 8px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.3s background-color;
+}
+
+.daftar-button:hover {
+  background-color: #f2e56c;
+}
+
+/*
+
+.navbar-toggler {
+  border: none;
+  font-size: 1.25rem;
+  
+}
+*/
+
+/* .navbar-toggler:focus, .btn-close:focus {
+  box-shadow: none;
+  outline: none;
+} */
+
+.nav-link {
+  color: var(--pr-color);
+  font-weight: 500;
+  position: relative;
+}
+
+.navbar-nav .nav-link.active {
+  color: var(--pr-color);
+  font-weight: 700;
+  position: relative;
+}
+
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--pr-color);
+}
+
+@media (min-width:991px) {
+  .nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+  }
+
+  .nav-link:hover::before,
+  .nav-link:active::before {
+    width: 100%;
+    visibility: visible;
+
+  }
+}
+
+
+
+.navbar {
+  z-index: 3;
+}
+
+* {
+  z-index: 2;
+}
+
+
+/* .nav-link {
+  font-size: 16px;
+} */
+/* .nav-link.active {
+  font-weight: 700;
+} */
+
+/* .button-primary{
+  width: 133px;
+  height: 30px;
+  background-color: #d5c323;
+  color: #123A78;
+  border: none; 
+  font-size: 18px;
+  font-weight: 700;   
+  border-radius: 5px;
+} */
+
+/* Hero Section */
+#hero {
+  background: url("/Assets/img/BackgroundHero04.png") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  opacity: 2;
+}
+
+
+/* .hero-img {
+  width: 100%;
+  height: 100%;
+  /* margin: 0 0 60px; 
+  background: url("/Assets/img/BackgroundHero.png") no-repeat center;
+  background-size: cover; 
+} */
+
+
+
+
+/* .hero-section {
+  background: url("/Assets/img/herobackground.png") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+} */
+
+/* .hero-section::before {
+background-color: rgba(0, 0, 0, 0.6);
+content: "";
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+} */
+
+.img-hero {
+  position: absolute;
+  top: 50%;
+  left: 74.5%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: 100%;
+
+
+}
+
+
+.Sekolah-Dasar-Islam-Terpadu {
+  /* height: 47px; */
+  align-self: stretch;
+  flex-grow: 0;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ead518;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .ZaisGroup {
+  height: 144px;
+  align-self: stretch;
+  flex-grow: 0;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 1px #ada0a0;
+  font-family: Poppins;
+  font-size: 96px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #981717;  
+  display: flex;
+  flex-direction: column;  
+}
+
+
+.ZAIS .text-style-1 {
+  color: #2dbf15;
+}
+.ZAIS .text-style-2 {
+  color: #d5c323;
+}
+.ZAIS .text-style-3 {
+  color: #0d0a95;
+} */
+
+
+
+.Zata-Amani-Islamic-School {
+
+  align-self: stretch;
+  flex-grow: 0;
+  font-family: Poppins;
+  font-size: 52px;
+  text-align: left;
+  font-weight: 800;
+  color: #ead518;
+}
+
+.tagl {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+
+}
+
+/* Section welcome */
+#welcome {
+  padding-top: 50px;
+  text-align: center;
+  margin: 85px 0 0;
+}
+
+.ZAIS {
+  align-self: stretch;
+  flex-grow: 0;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 1px #ada0a0;
+  font-family: Poppins;
+  font-size: 60px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #981717;
+}
+
+
+.ZAIS .text-style-1 {
+  color: #2dbf15;
+}
+
+.ZAIS .text-style-2 {
+  color: #d5c323;
+}
+
+.ZAIS .text-style-3 {
+  color: #0d0a95;
+}
+
+.ZAIS .zais-text-b {
+  color: #123A78;
+}
+
+.card-welcome p {
+  color: #726707;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.card-welcome {
+  text-align: left;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+  align-items: center;
+  gap: 10px;
+  margin: 200px 0 0;
+  padding: 40px 51px;
+  border-radius: 30px;
+  background-color: #bcc9fe;
+}
+
+.embed-responsive.custom-size.position-absolute.top-center {
+  position: absolute;
+  top: 0px;
+  /* Sesuaikan jarak dari atas */
+  bottom: 80%;
+  left: 72%;
+  transform: translateX(-50%);
+  width: 600px;
+  /* Sesuaikan lebar */
+  height: 350px;
+  /* Sesuaikan tinggi */
+  max-width: 100%;
+  margin: auto;
+  /* Untuk mengatur posisi tengah */
+  /* margin: auto; Untuk mengatur posisi tengah */
+}
+
+.embed-responsive {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+}
+
+.embed-responsive .embed-responsive-item,
+.embed-responsive iframe,
+.embed-responsive embed,
+.embed-responsive object,
+.embed-responsive video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 20px;
+}
+
+/* end section welcome */
+
+/* Program section */
+#program {
+  padding-top: 50px;
+  margin: 85px 0 0;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--pr-inticolor);
+}
+
+.sub-title {
+
+  font-size: 18px;
+  color: var(--pr-inticolor);
+}
+
+.card-program {
+  width: 100%;
+  height: 313px;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 40px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+  transition: all .2s ease-in;
+}
+
+.card-program:hover {
+  transform: scale(1.08); /* Tambahkan transform scale pada hover */
+}
+
+.circle-icon {
+  width: 86px;
+  height: 86px;
+  /* background-color: var(--pr-inticolor); */
+  background-color: #ead518;
+  border-radius: 50%;
+  transition: all .1s ease-in;
+}
+
+.card-program h3 {
+  color: var(--pr-inticolor);
+  font-size: 24px;
+  transition: all .2s ease-in;
+}
+
+.card-program p {
+  color: var(--pr-inticolor);
+  font-size: 14px;
+  transition: all .3s ease-in;
+}
+
+/* Hover */
+.card-program:hover {
+  width: 100%;
+  height: 313px;
+  border-radius: 5px;
+  /* background: linear-gradient(160deg, #216BDE,#123A78); */
+  background: linear-gradient(160deg, #c5de21, #717812);
+  padding: 40px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+  transition: all .2s ease-in;
+}
+
+.card-program:hover .circle-icon {
+  background-color: #fff;
+  transition: all .2s ease-in;
+}
+
+.card-program:hover h3 {
+  color: #fff;
+  font-size: 24px;
+  transition: all .2s ease-in;
+}
+
+.card-program:hover p {
+  color: #fff;
+  font-size: 14px;
+  transition: all .2s ease-in;
+}
+
+/* Section Prestasi */
+#prestasi {
+  padding-top: 30px;
+  margin: 50px 0 0;
+}
+
+.card {
+  height: 450px;
+  width: 95%;
+  border: none;
+}
+
+.card-body h4 {
+  color: var(--pr-inticolor);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: .8rem;
+}
+
+.card-body p {
+  color: #141414;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.card:hover {
+  /* background: linear-gradient(170deg, #216BDE, #123A78); */
+  background: linear-gradient(160deg, #c5de21, #717812);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  transition: all ease-in-out .3s;
+}
+
+.card:hover .card-body h4 {
+  color: #fff;
+  transition: all ease-in-out .3s;
+}
+
+.card:hover .card-body p {
+  color: #fff;
+  transition: all ease-in-out .3s;
+}
+
+.card-fasilitas {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 10px;
+  background-color: #fff;
+}
+
+.card-fasilitas span {
+  font-weight: 500;
+  margin-top: 18px;
+  color: var(--pr-inticolor);
+}
+
+
+/* Card fasilitas sekolah */
+/* #fasilitas {
+  padding-top: 50px;
+  margin: 120px 0 0;
+}
+
+.button-fasilitas {
+  width: 227px;
+  height: 57px;
+  background-color: var(--pr-inticolor);
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 10px;
+}
+
+#fasilitas h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.card-fas h5 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.card-fas .overlay {
+  background-color: rgba(0, 0, 0, 0);
+  opacity: 0;
+  transition: all ease-in-out .3s;
+}
+
+.card-fas .overlay:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 1;
+}
+
+.button-arrow-left {
+  border: none;
+  border-radius: 50%;
+  width: 61px;
+  height: 61px;
+  background-color: var(--pr-inticolor);
+  padding: 0;
+}
+
+.button-arrow-right {
+  border: none;
+  border-radius: 50%;
+  width: 61px;
+  height: 61px;
+  background-color: var(--pr-inticolor);
+  padding: 0;
+}
+*/
+
+/* Footer */
+footer {
+  width: 100%;
+  height: 208px;
+  flex-grow: 0;
+  margin: 39px 0 0;
+  padding: 50px 93px 25px 85px;
+  background-color: #131b3a;
+}
+
+.copyright {
+  bottom: 1%;
+  color: #fff;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.kontakfooter {
+  color: #fff;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.icon-text-space {
+  margin-left: 2px;
+} 
+
+
+/* Hero02 */
+
+.wrapper-style {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-style {
+  height: 400px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: start;
+
+}
+
+.card-style {
+  width: 50px;
+  border-radius: .75rem;
+  background-size: cover;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 2rem;
+  margin: 0 10px;
+  display: flex;
+  align-items: flex-end;
+  transition: width 0.6s cubic-bezier(.28, -0.03, 0, .99);
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.8);
+}
+
+.card-styleZ {
+  border-color: #981717;
+  border-style: solid;
+}
+
+.card-styleA {
+  border-color: #2dbf15;
+  border-style: solid;
+}
+
+.card-styleI {
+  border-color: #ead518;
+  border-style: solid;
+}
+
+.card-styleS {
+  border-color: #0d0a95;
+  border-style: solid;
+}
+
+.card-style>.row-style {
+  color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  /* Vertically center children */
+}
+
+.card-style>.row-style>.icon-style {
+  /* background: #223; */
+  /* color: white; */
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  font-family: "Poppins", sans-serif;
+}
+
+.card-style>.row-style>.icon-style00 {
+  /* background: #223; */
+  /* color: white; */
+  border-radius: 50%;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card-style>.row-style>.icn-styleZ {
+  background: #981717;
+}
+
+.card-style>.row-style>.icn-styleA {
+  background: #2dbf15;
+}
+
+.card-style>.row-style>.icn-styleI {
+  background: #ead518;
+}
+
+.card-style>.row-style>.icn-styleS {
+  background: #0d0a95;
+}
+
+
+.card-style>.row-style>.description {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  height: 80px;
+  width: 520px;
+  opacity: 0;
+  transform: translateY(30px);
+  transition-delay: .3s;
+  transition: all .3s ease;
+}
+
+.description p {
+  color: #ead518;
+  padding-top: 5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.description h4 {
+  /* text-transform: uppercase; */
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  /* color: #981717;  */
+}
+
+input {
+  display: none;
+}
+
+input:checked+label {
+  width: 500px;
+}
+
+input:checked+label .description {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+.card-style[for="chero"] {
+  background-image: url('/Assets/img/hero/hero020.png');
+
+}
+
+.card-style[for="c1"] {
+  background-image: url('/Assets/img/hero/hero10.png');
+
+}
+
+.card-style[for="c2"] {
+  background-image: url('/Assets/img/hero/hero03.png');
+
+}
+
+.card-style[for="c3"] {
+  background-image: url('/Assets/img/hero/hero08.png');
+
+}
+
+.card-style[for="c4"] {
+  background-image: url('/Assets/img/hero/hero02.png');
+
+}
+
+/* End Hero02 */
+
+/* Fasilitas Owl Carousel  */
+#slider {
+  padding-top: 50px; 
+  margin: 120px 0 0;
+}
+
+.button-fasilitas {
+  width: 227px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #ead518;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  color:var(--pr-inticolor);
+  border-radius: 10px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+}
+
+.button-fasilitas:hover {
+  background-color: #f2e56c;
+}
+
+.slider {
+  margin-bottom: 30px;
+  position: relative;
+  /* padding-top: 50px; */
+  /* margin: 120px 0 0; */
+}
+.slider .owl-item.active.center .slider-card {
+  transform: scale(1.15);
+  opacity: 1;
+  background: #ead518; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #717812, #ead518); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #717812, #ead518); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* #c5de21, #717812 */
+  color: var(--pr-inticolor);
+}
+.slider-card {
+  background: #fff;
+  padding: 0px 0px;
+  margin: 50px 15px 90px 15px;
+  border-radius: 5px;
+  box-shadow: 0 15px 45px -20px rgb(0 0 0 / 73%);
+  transform: scale(0.9);
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+.slider-card img {
+  border-radius: 5px 5px 0px 0px;
+}
+.owl-nav .owl-prev {
+  position: absolute;
+  top: calc(50% - 25px);
+  left: 0;
+  opacity: 1;
+  font-size: 30px !important;
+  z-index: 1;
+}
+.owl-nav .owl-next {
+  position: absolute;
+  top: calc(50% - 25px);
+  right: 0;
+  opacity: 1;
+  font-size: 30px !important;
+  z-index: 1;
+}
+.owl-dots {
+  text-align: center;
+}
+.owl-dots .owl-dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  background: #ccc !important;
+  margin-left: 3px;
+  margin-right: 3px;
+  outline: none;
+}
+.owl-dots .owl-dot.active {
+  background:  var(--pr-inticolor) !important;
+}
